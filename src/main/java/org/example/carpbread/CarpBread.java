@@ -1,4 +1,4 @@
-package org.example;
+package org.example.carpbread;
 
 public class CarpBread {
     int id;
@@ -23,3 +23,4 @@ public class CarpBread {
         throw new IllegalArgumentException("유효하지 않은 색상입니다: " + color);
     }
 }
+
