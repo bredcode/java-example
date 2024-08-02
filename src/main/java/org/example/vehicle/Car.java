@@ -7,6 +7,7 @@ class Car extends Vehicle {
 
     @Override
     void fillEnergy(int amount) {
+        System.out.println("충전중...");
         super.fillEnergy(amount);
     }
 }

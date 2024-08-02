@@ -8,7 +8,7 @@ public class Main {
         vehicle.fillEnergy(10);
         vehicle.drive();
 
-        Bike bike = new Bike("오토바이", "자동차", 20);
+        Bike bike = new Bike("5토바이", "오토바이", 20);
         bike.fillEnergy(20);
         bike.drive();
 
@@ -28,9 +28,15 @@ public class Main {
         dieselCar.refuelDiesel(10);
         dieselCar.drive();
 
-        // Question
+        // Q. ElectricCar에 멤버변수 speed가 선언되어있다면 electricCar1.speed는 될까?
         // Car electricCar1 = new ElectricCar("GV70", 10);
-        // ElectricCar에 멤버변수 speed가 선언되어있다면 electricCar1.speed는 될까?
+        // System.out.println(electricCar1.speed);
+
+        // 다형성
+        Vehicle bike1 = new Bike("o토바이", "오토바이", 10);
+        bike1.fillEnergy(10);
+        Vehicle car1 = new Car("차차", "자동차", 10);
+        car1.fillEnergy(10);
     }
 }
 
