@@ -1,4 +1,4 @@
-package org.example.vehicle;
+package org.example.vehicle.inheritance;
 
 class ElectricCar extends Car {
     ElectricCar(String name, int energyAmount) {

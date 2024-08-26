@@ -1,6 +1,4 @@
-package org.example.vehicle;
-
-import org.example.carpbread.CarpBread;
+package org.example.vehicle.inheritance;
 
 public class Main {
     public static void main(String[] args) {
@@ -28,15 +26,15 @@ public class Main {
         dieselCar.refuelDiesel(10);
         dieselCar.drive();
 
-        // Q. ElectricCar에 멤버변수 speed가 선언되어있다면 electricCar1.speed는 될까?
-        // Car electricCar1 = new ElectricCar("GV70", 10);
-        // System.out.println(electricCar1.speed);
-
         // 다형성
         Vehicle bike1 = new Bike("o토바이", "오토바이", 10);
         bike1.fillEnergy(10);
         Vehicle car1 = new Car("차차", "자동차", 10);
         car1.fillEnergy(10);
+
+        // Q. ElectricCar에 멤버변수 speed가 선언되어있다면 electricCar1.speed는 될까?
+        //  Car electricCar1 = new ElectricCar("GV70", 10);
+        //  System.out.println(electricCar1.speed);
     }
 }
 
