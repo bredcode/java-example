@@ -1,4 +1,4 @@
-package org.example.vehicle.abstracts;
+package org.example.vehicle.abstractclass;
 
 class ElectricCar extends Car {
     ElectricCar(String name, int energyAmount) {

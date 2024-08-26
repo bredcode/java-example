@@ -1,4 +1,4 @@
-package org.example.vehicle.abstracts;
+package org.example.vehicle.abstractclass;
 
 abstract class Car implements Vehicle {
     protected String name;

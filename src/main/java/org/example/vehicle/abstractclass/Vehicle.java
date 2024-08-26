@@ -1,4 +1,4 @@
-package org.example.vehicle.abstracts;
+package org.example.vehicle.abstractclass;
 
 public interface Vehicle {
     void drive();
