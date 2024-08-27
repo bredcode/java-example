@@ -27,6 +27,7 @@ public class Main {
         dieselCar.drive();
 
         // 다형성
+        // Q. Bike객체이지만 Type이 Vehicle이면 bike1.fillEnergy는 Vehicle의 fillEnergy가 호출될까 아니면 Bike의 fillEnergy가 호출될까?
         Vehicle bike1 = new Bike("o토바이", "오토바이", 10);
         bike1.fillEnergy(10);
         Vehicle car1 = new Car("차차", "자동차", 10);
@@ -35,6 +36,11 @@ public class Main {
         // Q. ElectricCar에 멤버변수 speed가 선언되어있다면 electricCar1.speed는 될까?
         //  Car electricCar1 = new ElectricCar("GV70", 10);
         //  System.out.println(electricCar1.speed);
+
+
+        // 정리
+        // 메서드 호출은 '참조 변수의 타입'이 아닌 '실제 객체의 타입'에 의해 결정,
+        // 필드 호출은 '실제 객체의 타입'이 아닌 '참조 변수의 타입'에 의해 결정.
     }
 }
 
