@@ -27,6 +27,6 @@
 
 ### 출력
 
-```json
+```text
 [design patterns, java programming, web development]
 ```
