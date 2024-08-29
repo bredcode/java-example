@@ -17,12 +17,7 @@ class SpaceObject {
 
 public class SpaceMission {
     public static List<Integer> solution(List<SpaceObject> arr) {
-        return arr.stream()
-                .filter(obj -> obj.type.equals("planet"))
-                .map(obj -> obj.dist)
-                .sorted(Comparator.comparingInt(Math::abs))
-                .limit(3)
-                .collect(Collectors.toList());
+        // 풀이
     }
 
     public static void main(String[] args) {
