@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Vehicle electricCar = new ElectricCar("테슬라", 30);
         electricCar.fillEnergy(10);
+        // 다운 캐스팅
         ((ElectricCar) electricCar).charge(10);
         ((ElectricCar) electricCar).beep();
         electricCar.drive();
