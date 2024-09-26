@@ -1,4 +1,4 @@
-package org.example.stream;
+package org.example.stream.spacemission;
 
 import java.util.ArrayList;
 import java.util.Comparator;
