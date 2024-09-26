@@ -20,7 +20,7 @@ public class SpaceMission {
         return arr.stream()
                 .filter(obj -> obj.type.equals("planet"))
                 .map(obj -> obj.dist)
-                .sorted(Comparator.comparingInt(Math::abs))
+                .sorted((a, b) -> Math.abs(a) - Math.abs(b))
                 .limit(3)
                 .collect(Collectors.toList());
     }
