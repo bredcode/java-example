@@ -11,11 +11,12 @@ class SpaceObject_T {
         this.type = type;
         this.dist = dist;
     }
-}
+}                                                                                                                                           
 
-public class SpaceMission_T {
+class SpaceMission_T {
     public static List<Integer> solution(List<SpaceObject_T> arr) {
         // 풀이 작성
+        return List.of();
     }
 
     public static void main(String[] args) {
