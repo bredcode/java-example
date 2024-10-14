@@ -42,10 +42,12 @@ class Solution {
             // 현재 도착한 사람이 기다리는 사람과 만난 경우 -> 관람
             if (lastArriveTime <= arriveTime && arriveTime <= lastArriveTime + lastPatienceTime) {
                 result += 2;
-                curIdx += 2;
+                curIdx += 1;
                 if (curIdx >= N) break;
-                lastArriveTime = items.get(curIdx - 1).arriveTime;
-                lastPatienceTime = items.get(curIdx - 1).patienceTime;
+                lastArriveTime = items.get(curIdx).arriveTime;
+                lastPatienceTime = items.get(curIdx).patienceTime;
+                curIdx += 1;
+                if (curIdx >= N) break;
             } else { // 현재 도착한 사람이 기다려야 하는 경우
                 lastArriveTime = arriveTime;
                 lastPatienceTime = patienceTime;

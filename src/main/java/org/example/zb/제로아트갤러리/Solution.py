@@ -23,11 +23,14 @@ def solution(arrive, patience):
         # 현재 도착한 사람이 기다리는 사람과 만난 경우 -> 관람
         if last_arrive_time <= arrive_time <= last_arrive_time + last_patience_time:
             result += 2
-            cur_idx += 2
+            cur_idx += 1
             if cur_idx >= N:
                 break
-            last_arrive_time = items[cur_idx - 1][0]
-            last_patience_time = items[cur_idx - 1][1]
+            last_arrive_time = items[cur_idx][0]
+            last_patience_time = items[cur_idx][1]
+            cur_idx += 1
+            if cur_idx >= N:
+                break
         else:
             # 현재 도착한 사람이 기다려야 하는 경우
             last_arrive_time = arrive_time

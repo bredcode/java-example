@@ -29,10 +29,12 @@ function solution(arrive, patience) {
         // 현재 도착한 사람이 기다리는 사람과 만난 경우 -> 관람
         if (lastArriveTime <= arriveTime && arriveTime <= lastArriveTime + lastPatienceTime) {
             result += 2;
-            curIdx += 2;
+            curIdx += 1;
             if (curIdx >= N) break;
-            lastArriveTime = items[curIdx - 1][0];
-            lastPatienceTime = items[curIdx - 1][1];
+            lastArriveTime = items[curIdx][0];
+            lastPatienceTime = items[curIdx][1];
+            curIdx += 1;
+            if (curIdx >= N) break;
         } else {
             // 현재 도착한 사람이 기다려야 하는 경우
             lastArriveTime = arriveTime;
