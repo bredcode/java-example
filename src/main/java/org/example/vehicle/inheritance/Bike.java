@@ -8,6 +8,6 @@ class Bike extends Vehicle {
     @Override
     void fillEnergy(int amount) {
         this.energyAmount += amount;
-        System.out.println(this.name + "에 " + amount + "만큼 연료를 추가합니다. 현재 연료량: " + this.energyAmount);
+        System.out.println("[Bike] " + this.name + "에 " + amount + "만큼 연료를 추가합니다. 현재 연료량: " + this.energyAmount);
     }
 }
