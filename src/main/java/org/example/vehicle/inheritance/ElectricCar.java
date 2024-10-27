@@ -6,7 +6,7 @@ class ElectricCar extends Car {
     }
 
     void charge(int amount) {
-        System.out.println(this.name + "에 " + amount + "만큼 전기를 추가합니다.");
+        System.out.println("[ElectricCar] " + this.name + "에 " + amount + "만큼 전기를 추가합니다.");
         super.fillEnergy(amount);
     }
 }

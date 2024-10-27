@@ -12,11 +12,11 @@ class Vehicle {
     }
 
     void drive() {
-        System.out.println("[" + this.type + "] " + this.name + "을(를) 운전합니다.\n");
+        System.out.println("[Vehicle] [" + this.type + "] " + this.name + "을(를) 운전합니다.\n");
     }
 
     void fillEnergy(int amount) {
         this.energyAmount += amount;
-        System.out.println("충전 되었습니다. 현재양: " + this.energyAmount);
+        System.out.println("[Vehicle] 충전 되었습니다. 현재양: " + this.energyAmount);
     }
 }

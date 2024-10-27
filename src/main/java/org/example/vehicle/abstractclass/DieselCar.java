@@ -7,11 +7,11 @@ class DieselCar extends Car {
 
     @Override
     void beep() {
-        System.out.println(this.name + "의 경적소리: 디제에엘!!");
+        System.out.println("[DieselCar] " + this.name + "의 경적소리: 디제에엘!!");
     }
 
     void refuelDiesel(int amount) {
-        System.out.println(this.name + "에 " + amount + "만큼 경유를 추가합니다.");
+        System.out.println("[DieselCar] " + this.name + "에 " + amount + "만큼 경유를 추가합니다.");
         fillEnergy(amount);
     }
 }
