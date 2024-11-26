@@ -17,13 +17,5 @@ public class Main {
         DieselCar dieselCar = new DieselCar("그랜저", 10);
         dieselCar.fillEnergy(10);
         dieselCar.drive();
-
-        // 다형성
-        Vehicle bike1 = new Bike("o토바이", "오토바이", 10);
-        bike1.fillEnergy(10);
-        bike1.drive();
-        Vehicle car1 = new ElectricCar("차차", 10);
-        car1.fillEnergy(10);
-        car1.drive();
     }
 }
