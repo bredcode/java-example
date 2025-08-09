@@ -1,4 +1,4 @@
-package org.example.zb.제로아트갤러리;
+package org.example.ps.zb.제로아트갤러리;
 
 import java.util.ArrayList;
 import java.util.List;

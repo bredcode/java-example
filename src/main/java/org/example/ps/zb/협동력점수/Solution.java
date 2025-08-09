@@ -1,4 +1,4 @@
-package org.example.zb.협동력점수;
+package org.example.ps.zb.협동력점수;
 
 import java.util.*;
 

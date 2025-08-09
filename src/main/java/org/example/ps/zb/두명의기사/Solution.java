@@ -1,4 +1,4 @@
-package org.example.zb.두명의기사;
+package org.example.ps.zb.두명의기사;
 
 import java.util.*;
 

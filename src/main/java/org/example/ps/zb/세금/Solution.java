@@ -1,4 +1,4 @@
-package org.example.zb.세금;
+package org.example.ps.zb.세금;
 
 import java.util.*;
 

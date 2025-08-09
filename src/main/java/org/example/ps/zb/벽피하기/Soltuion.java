@@ -1,4 +1,4 @@
-package org.example.zb.벽피하기;
+package org.example.ps.zb.벽피하기;
 
 import java.util.ArrayDeque;
 import java.util.Queue;

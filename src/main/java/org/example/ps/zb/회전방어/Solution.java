@@ -1,3 +1,5 @@
+package org.example.ps.zb.회전방어;
+
 class Solution {
     // 전역 변수로 N과 enemies 선언
     public int N;

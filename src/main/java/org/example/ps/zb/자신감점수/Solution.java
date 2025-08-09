@@ -1,4 +1,4 @@
-package org.example.zb.자신감점수;
+package org.example.ps.zb.자신감점수;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.example.zb.여행가의등산;
+package org.example.ps.zb.여행가의등산;
 
 import java.util.*;
 

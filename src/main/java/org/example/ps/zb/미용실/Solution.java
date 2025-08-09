@@ -1,4 +1,4 @@
-package org.example.zb.미용실;
+package org.example.ps.zb.미용실;
 
 import java.util.*;
 

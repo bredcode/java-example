@@ -1,10 +1,7 @@
-package org.example.zb.익스트림베스킨라빈스;
+package org.example.ps.zb.익스트림베스킨라빈스;
 
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
-import java.util.ArrayList;
-import java.util.stream.IntStream;
 
 class Solution {
     private int r;

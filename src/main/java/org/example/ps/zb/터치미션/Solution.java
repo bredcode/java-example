@@ -1,4 +1,4 @@
-package org.example.zb.터치미션;
+package org.example.ps.zb.터치미션;
 
 import java.util.ArrayDeque;
 import java.util.Queue;

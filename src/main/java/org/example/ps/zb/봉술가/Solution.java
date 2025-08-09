@@ -1,4 +1,4 @@
-package org.example.zb.봉술가;
+package org.example.ps.zb.봉술가;
 
 import java.util.*;
 

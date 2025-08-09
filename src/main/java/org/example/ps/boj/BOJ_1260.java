@@ -1,4 +1,4 @@
-package org.example.ps;
+package org.example.ps.boj;
 
 import java.io.BufferedReader;
 import java.io.IOException;
