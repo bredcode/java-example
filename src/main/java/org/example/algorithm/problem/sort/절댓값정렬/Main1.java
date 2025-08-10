@@ -20,7 +20,8 @@ public class Main1 {
         Arrays.sort(arr, (a, b) -> {
             int absA = Math.abs(a);
             int absB = Math.abs(b);
-            if (absA == absB) return a - b; // 절댓값 같다면 원래 값 비교
+            if (absA == absB)
+                return a - b; // 절댓값 같다면 원래 값 비교
             return absA - absB;
         });
 
